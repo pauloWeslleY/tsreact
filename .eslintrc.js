@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     "react-app",
     "airbnb",
-    "prettier/prettier",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:import/recommended",
@@ -39,6 +38,8 @@ module.exports = {
     "react/function-component-definition": "off",
     "no-shadow": "off",
     "default-param-last": "off",
+    "prettier/prettier": "off",
+    "react/no-unused-prop-types": "off",
   },
   settings: {
     "import/parsers": {
